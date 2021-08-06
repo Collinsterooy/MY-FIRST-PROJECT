@@ -9,13 +9,16 @@ nav {
   padding: 50px 0;
 }
 
-nav ul li {
+nav a {
   display: inline-block;
 }
-nav ul li a {
+div.Navig a {
 padding:25px;
 color: black;
 font-size: 17.5px;
 font-family: Arial;
 text-decoration: none;
+}
+.home a {
+  color: blue;
 }
