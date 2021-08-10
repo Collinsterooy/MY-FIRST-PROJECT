@@ -1,10 +1,10 @@
+/* This is the Begining of the navigation */
 nav {
-
-  margin-top: -150px;
-  margin-right: 30px;
+  margin-top: -170px;
+  margin-right: 20px;
   margin-bottom: 40px;
-  margin-left: 800px;
-  width:1000px;
+  margin-left: 830px;
+  width:700px;
   height:15px;
   padding: 50px 0;
 }
@@ -18,7 +18,30 @@ color: black;
 font-size: 17.5px;
 font-family: Arial;
 text-decoration: none;
+
 }
-.home a {
-  color: blue;
+div.Navig a:hover {
+  color:blue;
+}
+/* This is the end of the navigation */
+
+/* This is the Begining of the mission Statement */
+div.Background {
+  height: 630px;
+  width:  830px;
+  background-color: #f0f0ff;
+  margin-top: -30px;
+  margin-left: -10px;
+}
+/* This is the motto design */
+div.Mission-Statement {
+  height: 100px;
+  width: 600px;
+  color: black;
+  font-size: 65px;
+  font-weight: bold;
+  transform: translate(100px, 200px);
+  /* This is the end of the motto design */
+  
+
 }
