@@ -1,5 +1,6 @@
+
 /* This is the Begining of the navigation */
-nav {
+.Navig {
   margin-top: -170px;
   margin-right: 20px;
   margin-bottom: 40px;
@@ -7,12 +8,15 @@ nav {
   width:700px;
   height:15px;
   padding: 50px 0;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
 }
 
 nav a {
   display: inline-block;
 }
-div.Navig a {
+.Navig a {
 padding:25px;
 color: black;
 font-size: 17.5px;
@@ -20,13 +24,13 @@ font-family: Arial;
 text-decoration: none;
 
 }
-div.Navig a:hover {
+.Navig a:hover {
   color:blue;
 }
 /* This is the end of the navigation */
 
 /* This is the Begining of the mission Statement */
-div.Section_1-Article_1 {
+.Section_1-Article_1 {
   height: 630px;
   width:  830px;
   background-color: #f0f0ff;
@@ -34,7 +38,7 @@ div.Section_1-Article_1 {
   margin-left: -10px;
 }
 /* This is the motto design */
-div.Mission-Statement {
+.Mission-Statement {
   height: 100px;
   width: 600px;
   color: black;
@@ -45,6 +49,77 @@ div.Mission-Statement {
 
 }
 /* This is the Begining of "About-us"*/
-div.About-us {
+.About-us {
+height: 60px;
+width: 130px;
+border: 1px solid blue;
+border-radius:5px;
+background-color:blue;
+transform: translate(100px, 275px);
+}
 
+.About-us a {
+  color:white;
+  text-decoration: none;
+  font-size: 26px
+}
+.Insights {
+  height: 60px;
+  width: 250px;
+  border: 1px solid blue;
+  border-radius:5px;
+  background-color:none;
+  transform: translate(240px, 213px)
+}
+.Insights:hover {
+  background-color:black;
+  color:white;
+}
+.Insights a {
+  height: 60px;
+  width:250px;
+  color:blue;
+  text-decoration: none;
+  font-size: 26px
+}
+
+.Insights a:hover {
+  color:white;
+}
+
+.Front-Picture img {
+  height:630px;
+  width: 690px;
+transform: translate(820px, -630px)
+}
+
+.Websites{
+  height: 270px;
+  width:  430px;
+  background-color: #f0f0ff;
+  position: relative;
+  top: -570px;
+  left: 60px;
+}
+
+.Marketing{
+  height: 270px;
+  width:  430px;
+  background-color: #f0f0ff;
+  position: relative;
+  top: -859px;
+  left: 535px;
+}
+.Design{
+  height: 271px;
+  width:  430px;
+  background-color: #f0f0ff;
+  position: relative;
+  top: -1147px;
+  left: 1010px;
+}
+.Resume{
+  height: 300px;
+  width: 600px;
+  transform: translate(570px, -1050px)
 }
