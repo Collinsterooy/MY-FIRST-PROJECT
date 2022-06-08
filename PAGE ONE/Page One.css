@@ -26,7 +26,7 @@ div.Navig a:hover {
 /* This is the end of the navigation */
 
 /* This is the Begining of the mission Statement */
-div.Background {
+div.Section_1-Article_1 {
   height: 630px;
   width:  830px;
   background-color: #f0f0ff;
@@ -42,6 +42,9 @@ div.Mission-Statement {
   font-weight: bold;
   transform: translate(100px, 200px);
   /* This is the end of the motto design */
-  
+
+}
+/* This is the Begining of "About-us"*/
+div.About-us {
 
 }
